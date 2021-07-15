@@ -12,7 +12,7 @@ export default class PostAddForm extends Component{
 	
 	onValueChang(e){
 		this.setState({
-			text.e.target.value
+			text: e.target.value
 		})
 	}
 	
